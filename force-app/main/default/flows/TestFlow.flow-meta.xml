@@ -24,6 +24,17 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <screens>
+        <name>NewScreen</name>
+        <label>NewScreen</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
         <name>Test</name>
         <label>Test</label>
         <locationX>176</locationX>
@@ -31,6 +42,9 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
+        <connector>
+            <targetReference>NewScreen</targetReference>
+        </connector>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
